@@ -4,11 +4,11 @@
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header">
-        <h1 class="display-3 text-uppercase text-white mb-3">Car Booking</h1>
+        <h1 class="display-3 text-uppercase text-white mb-3">Reserva de coche</h1>
         <div class="d-inline-flex text-white">
             <h6 class="text-uppercase m-0"><a class="text-white" href="">Home</a></h6>
             <h6 class="text-body m-0 px-3">/</h6>
-            <h6 class="text-uppercase text-body m-0">Car Booking</h6>
+            <h6 class="text-uppercase text-body m-0">Reserva de coche</h6>
         </div>
     </div>
     <!-- Page Header Start -->
@@ -75,31 +75,31 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <h2 class="mb-4">Personal Detail</h2>
+                    <h2 class="mb-4">Detalle personal</h2>
                     <div class="mb-5">
                         <div class="row">
                             <div class="col-6 form-group">
-                                <input type="text" class="form-control p-4" placeholder="First Name" required="required">
+                                <input type="text" class="form-control p-4" placeholder="Nombre" required="required">
                             </div>
                             <div class="col-6 form-group">
-                                <input type="text" class="form-control p-4" placeholder="Last Name" required="required">
+                                <input type="text" class="form-control p-4" placeholder="Apellido" required="required">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-6 form-group">
-                                <input type="email" class="form-control p-4" placeholder="Your Email" required="required">
+                                <input type="email" class="form-control p-4" placeholder="Tu correo electrónico" required="required">
                             </div>
                             <div class="col-6 form-group">
-                                <input type="text" class="form-control p-4" placeholder="Mobile Number" required="required">
+                                <input type="text" class="form-control p-4" placeholder="Número de teléfono móvil" required="required">
                             </div>
                         </div>
                     </div>
-                    <h2 class="mb-4">Booking Detail</h2>
+                    <h2 class="mb-4">Detalle de la reserva</h2>
                     <div class="mb-5">
                         <div class="row">
                             <div class="col-6 form-group">
                                 <select class="custom-select px-4" style="height: 50px;">
-                                    <option selected>Pickup Location</option>
+                                    <option selected>Lugar de recogida</option>
                                     <option value="1">Location 1</option>
                                     <option value="2">Location 2</option>
                                     <option value="3">Location 3</option>
@@ -107,7 +107,7 @@
                             </div>
                             <div class="col-6 form-group">
                                 <select class="custom-select px-4" style="height: 50px;">
-                                    <option selected>Drop Location</option>
+                                    <option selected>Ubicación de entrega</option>
                                     <option value="1">Location 1</option>
                                     <option value="2">Location 2</option>
                                     <option value="3">Location 3</option>
@@ -117,13 +117,13 @@
                         <div class="row">
                             <div class="col-6 form-group">
                                 <div class="date" id="date2" data-target-input="nearest">
-                                    <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Pickup Date"
+                                    <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Fecha de recogida"
                                         data-target="#date2" data-toggle="datetimepicker" />
                                 </div>
                             </div>
                             <div class="col-6 form-group">
                                 <div class="time" id="time2" data-target-input="nearest">
-                                    <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Pickup Time"
+                                    <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Hora de recogida"
                                         data-target="#time2" data-toggle="datetimepicker" />
                                 </div>
                             </div>
@@ -131,7 +131,7 @@
                         <div class="row">
                             <div class="col-6 form-group">
                                 <select class="custom-select px-4" style="height: 50px;">
-                                    <option selected>Select Adult</option>
+                                    <option selected>Seleccionar adulto</option>
                                     <option value="1">Adult 1</option>
                                     <option value="2">Adult 2</option>
                                     <option value="3">Adult 3</option>
@@ -139,7 +139,7 @@
                             </div>
                             <div class="col-6 form-group">
                                 <select class="custom-select px-4" style="height: 50px;">
-                                    <option selected>Select Child</option>
+                                    <option selected>Seleccionar niño</option>
                                     <option value="1">Child 1</option>
                                     <option value="2">Child 2</option>
                                     <option value="3">Child 3</option>
@@ -147,13 +147,13 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control py-3 px-4" rows="3" placeholder="Special Request" required="required"></textarea>
+                            <textarea class="form-control py-3 px-4" rows="3" placeholder="Solicitud especial" required="required"></textarea>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="bg-secondary p-5 mb-5">
-                        <h2 class="text-primary mb-4">Payment</h2>
+                        <h2 class="text-primary mb-4">Pago</h2>
                         <div class="form-group">
                             <div class="custom-control custom-radio">
                                 <input type="radio" class="custom-control-input" name="payment" id="paypal">
@@ -169,10 +169,10 @@
                         <div class="form-group mb-4">
                             <div class="custom-control custom-radio">
                                 <input type="radio" class="custom-control-input" name="payment" id="banktransfer">
-                                <label class="custom-control-label" for="banktransfer">Bank Transfer</label>
+                                <label class="custom-control-label" for="banktransfer">Transferencia bancaria</label>
                             </div>
                         </div>
-                        <button class="btn btn-block btn-primary py-3">Reserve Now</button>
+                        <button class="btn btn-block btn-primary py-3">Reservar ahora</button>
                     </div>
                 </div>
             </div>
@@ -180,39 +180,6 @@
     </div>
     <!-- Car Booking End -->
 
-
-    <!-- Vendor Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="owl-carousel vendor-carousel">
-                <div class="bg-light p-4">
-                    <img src="/img/vendor-1.png" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="/img/vendor-2.png" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="/img/vendor-3.png" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="/img/vendor-4.png" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="/img/vendor-5.png" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="/img/vendor-6.png" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="/img/vendor-7.png" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="/img/vendor-8.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Vendor End -->
 
 
     
